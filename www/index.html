@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>Welcome to Sapient</title>
+		<!--[if lt IE 9]>
+		<script src="dist/html5shiv.js"></script>
+		<![endif]-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+		<link rel="stylesheet" type="text/css" href="css/jcarousel.transitions.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/media.css">
+
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="js/jcarousel.transitions.js"></script>
+
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<!--p font-size="8"><span>Screen resolution for testing</span></p-->
+			<div id="menuBar">
+				<img src="images/sapient-logo.png" id="logo" alt="Company logo" height="50"/>
+				<nav>
+					<a href="#">Home</a> | <a href="#">About us</a> | <a href="#">Projects</a> | <a href="#" class="selected">Contact Us</a>
+				</nav>
+				<select>
+					<option value="home">Home</option>
+					<option value="about">About us</option>
+					<option value="projects">Projects</option>
+					<option value="contact" selected>Contact US</option>
+				</select>
+			</div>
+			<header class="pageheader">
+				<div>
+					<p>Contact Us</p>
+					<hr />
+				</div>
+			</header>
+			<article>
+				<div class="wrapper">
+
+					<div class="jcarousel-wrapper">
+						<div class="jcarousel">
+							<ul></ul><!--Carousel list will be dynamically added here after parsed from JSON-->
+						</div>
+
+						<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+						<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+					</div>
+
+				</div>
+			</article>
+			<section id="content">
+
+				<section >
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+						dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+						dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+					</p>
+				</section>
+				<section>
+					<div id="hidden">
+						<label>Form submitted successfully.</label>
+					</div>
+					<form action="javascript:void(0);" id="validatedForm">
+
+						<input type="text" name="name" id="fname" placeholder="Firstname Lastname" required><br>
+						<input type="password" id="password" name="password" title="Minimum length 6 characters of alphanumeric and any special char among (~_*%@$&amp;)"
+								placeholder="Password" required pattern="^(?=.{6})(?=.*[a-z])(?=.*[~_*%@$&amp;]).*$"><br>
+						<input type="password" id="confirmpassword" name="confirm" title="Re-enter the matching password"
+								placeholder="Confirm password" required pattern="^(?=.{6})(?=.*[a-z])(?=.*[~_*%@$&amp;]).*$" ><br>
+						<input type="email" id="email" name="email" placeholder="Email" required title="Email other than domain sapient.com"><br>
+						<input type="url" id="website" name="website" placeholder="Website" required title=""><br><br>
+
+						<button>Submit</button>
+						
+					</form>
+					<aside>
+						<header>Business Unit</header>
+						<div class="rectangleBg">
+							<ul>
+								<li>Sapient
+									<ul>
+										<li>SapientNitro</li>
+										<li>Sapient Global Market</li>
+										<li>Sapient Government Services</li>
+										<li>Sapient (m)PHASIZE</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</aside>
+				</section>
+
+			</section>
+
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+/* big landscape tablets, laptops, and desktops */
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+	
+	#content {width: 50%;font-size: 0.9em;}
+
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media screen and (min-width: 800px) and (max-width: 960px) {
+	
+	#content {width: 45%;font-size: 0.9em;}
+	.pageheader {font-size: 1.8em;}
+	#hidden {padding: 3px;padding: 5px;font-size: 0.75em;}
+}
+
+@media screen and (min-width: 641px) and (max-width: 801px) {
+
+	#content {width: 40%;font-size: 0.8em;}
+	aside, .rectangleBg {width: 100%;}
+	form, input {width: 95%;}
+	button {position: relative;top: 100px;float: left;z-index: 50;}
+	aside {position: relative;top: -40px;margin-left: 0px;}
+}
+
+
+
+
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+@media screen and (min-width: 480px) and (max-width: 640px) {
+	
+	.pageheader {font-size: 1.5em;}
+	article {position: relative; top: 710px;float: none;margin-right: auto;margin-left: auto;}
+	#content {margin-left: 10%;width: 75%;position: relative;top: -240px;font-size: 0.8em}
+	button {position: relative;top: 100px;float: left;z-index: 50;}
+
+	aside {position: relative;top: -40px;margin-left: 0px;}
+	aside, .rectangleBg {width: 100%}
+	form, input {width: 96%;}
+	#hidden {padding: 3px;padding: 5px;font-size: 0.75em;width: 97%;}
+	a {font-size: 0.75em;}
+	.wrapper {padding-bottom: 40px;}
+
+}
+
+
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	
+	#menuBar { margin-top: 0px; position: fixed;top: 0px; clear: both;}
+
+	.pageheader { font-size: 1.1em; margin-top: 60px;}
+	nav { display: none;}
+	select {display: block;padding-right: 5px;}
+
+	.pageheader {font-size: 1.8em;}
+	article {position: relative;top: 710px;float: none;margin-right: auto;margin-left: auto;}
+	#content { margin-left: 10%;width: 75%;position: relative;top: -240px;font-size: 0.7em;}
+	#content p {overflow: auto;}
+	button { position: relative;top: 100px;float: left;z-index: 50;}
+
+	aside { position: relative;top: -40px;margin-left: 0px;}
+	aside, .rectangleBg {width: 100%;}
+	form, input {width: 96%;}
+	#hidden { padding-top: 10px;font-size: 0.70em;width: 95%;}
+	.wrapper {padding-bottom: 40px;}
+
+}
